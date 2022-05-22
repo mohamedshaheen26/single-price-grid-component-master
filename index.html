@@ -89,7 +89,7 @@
         color: var(--main-background-body);
         margin-left: 10px;
       }
-      main .price p {
+      main .price div:nth-child(1) p {
         margin-top: 10px;
         margin-bottom: 30px;
         font-size: 16px;
@@ -104,14 +104,11 @@
         box-shadow: 5px 10px 20px 2px #0000001a;
         color: white;
       }
-      main .price ul {
-        list-style-type: none;
+      main .price div:nth-child(2) h5 {
         font-size: 18px;
+        margin-bottom: 15px;
       }
-      main .price ul li:first-child {
-        margin-top: 15px;
-      }
-      main .price ul li {
+      main .price div:nth-child(2) p {
         color: var(--main-background-body);
         margin-bottom: 3px;
         font-size: 14px;
@@ -172,16 +169,14 @@
             <button>Sign Up</button>
           </div>
           <div>
-            <ul>
-              Why Us
-              <li>Tutorials by industry experts</li>
-              <li>Peer &amp; expert code review</li>
-              <li>Coding exercises</li>
-              <li>Access to our GitHub repos</li>
-              <li>Community forum</li>
-              <li>Flashcard decks</li>
-              <li>New videos every week</li>
-            </ul>
+              <h5>Why Us</h5>
+              <p>Tutorials by industry experts</p>
+              <p>Peer &amp; expert code review</p>
+              <p>Coding exercises</p>
+              <p>Access to our GitHub repos</p>
+              <p>Community forum</p>
+              <p>Flashcard decks</p>
+              <p>New videos every week</p>
           </div>
         </div>
       </div>
